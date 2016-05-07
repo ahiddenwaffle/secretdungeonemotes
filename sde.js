@@ -251,9 +251,9 @@ var sde = (function(){
 		var convertEmoticonListToFFZ = function(){
 
 			var owner = {
-				display_name: "electricnet",
+				display_name: "Various",
 				id: 999999,
-				name: "electricnet"
+				name: "Various"
 			}
 
 			var list = []
@@ -314,7 +314,7 @@ var sde = (function(){
 					emoticons: sdeFfzList,
 					icon: null,
 					id: sdeFfzName,
-					title: "Secret Dungeon Emotes",
+					title: "TPP Meme-otes",
 					users: []
 				}
 
