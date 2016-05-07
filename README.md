@@ -1,5 +1,7 @@
 Hey! Thanks for checking out my plugin! It means alot to me!
 
+Please click **[Here](https://chrome.google.com/webstore/detail/tpp-memotes/chagjmfjhbhihelppcenkcjobbnbaifn)** for the Download of the Chrome Extension
+
 This is a plugin for Twitch.Tv which adds many Meme-Related Emotes, Many Realting to Tpp or TwitchPlaysPokemon. 
 If you have any questions PLEASE let me know! 
 
