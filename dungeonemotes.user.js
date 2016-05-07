@@ -16,7 +16,7 @@ function sdeLoad()
 {
 	var script = document.createElement("script");
 	script.type = "text/javascript";
-	script.src = "//graulund.github.io/secretdungeonemotes/sde.js";
+	script.src = "//ahiddenwaffle.github.io/secretdungeonemotes/sde.js";
 	document.getElementsByTagName("head")[0].appendChild(script);
 }
 
