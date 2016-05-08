@@ -1,5 +1,7 @@
 Hey! Thanks for checking out my plugin! It means alot to me!
 
+!!!YOU NEED **[FFZ](http://www.frankerfacez.com/)** FOR THIS TO WORK!!!
+
 Please click **[Here](https://chrome.google.com/webstore/detail/tpp-memotes/chagjmfjhbhihelppcenkcjobbnbaifn)** for the Download of the
 Chrome Extension
 
