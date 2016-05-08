@@ -5,7 +5,7 @@ Hey! Thanks for checking out my plugin! It means alot to me!
 Please click **[Here](https://chrome.google.com/webstore/detail/tpp-memotes/chagjmfjhbhihelppcenkcjobbnbaifn)** for the Download of the
 Chrome Extension
 
-For the Firefox version, Please install **[Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)** and use the script located at "dungeonemotes.user.js"
+For the Firefox version, Please install **[Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)** and use this script 	https://raw.githubusercontent.com/ahiddenwaffle/secretdungeonemotes/gh-pages/dungeonemotes.user.js
 
 TIP: To see all the available Emotes, Install **[BTTV](https://nightdev.com/betterttv/)** 
 Step 1. Click the gear in the bottom left hand corner of the main chat window
