@@ -1,5 +1,7 @@
 Hey! Thanks for checking out my plugin! It means alot to me!
 
+Deditcated to All the Wonderful TPP fans, Especially **[Jayare158](https://www.reddit.com/r/twitchplayspokemon/comments/4aatak/what_happened_to_helennah/)**
+
 !!!YOU NEED **[FFZ](http://www.frankerfacez.com/)** FOR THIS TO WORK!!!
 
 Please click **[Here](https://chrome.google.com/webstore/detail/tpp-memotes/chagjmfjhbhihelppcenkcjobbnbaifn)** for the Download of the
