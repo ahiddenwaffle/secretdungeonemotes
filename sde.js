@@ -264,7 +264,7 @@ var sde = (function(){
 				list.push({
 					css: null,
 					height: sdem.height,
-					hidden: /^dan/.test(sdem.name),
+					hidden: /^dan/.test(sdem.name), /^aus/.test(sdem.name)
 					id: id,
 					margins: null,
 					name: sdem.name,
