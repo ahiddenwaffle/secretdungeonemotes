@@ -91,7 +91,17 @@ var sde = (function(){
 			console.log("SDE: Error occured retrieving emote data! " + errorThrown)
 		})
 	}
-
+	
+	var getEmoteList2 = function(callback){
+		return $.ajax({
+			url: "https://ahiddenwaffle.github.io/secretdungeonemotes/dungeonemotes-prefixed.json",
+			dataType: "jsonp",
+			jsonpCallback: "sde_jsonp_static"
+		}).done(callback).fail(function(jqXHR, textStatus, errorThrown){
+			console.log("SDE: Error occured retrieving emote data! " + errorThrown)
+		})
+	}
+	
 	var go = function(){
 		var $ = wnd.jQuery
 
@@ -358,6 +368,12 @@ var sde = (function(){
 			}
 		} else {
 			getEmoteList(function(data){
+				if(typeof data == "object" && data instanceof Array){
+					console.log("Dungeon Emotes: Downloaded emoticon list!")
+					sdEmoticons = data
+					tries = 0
+					init()
+						getEmoteList2(function(data){
 				if(typeof data == "object" && data instanceof Array){
 					console.log("Dungeon Emotes: Downloaded emoticon list!")
 					sdEmoticons = data
