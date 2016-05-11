@@ -2,6 +2,9 @@ Hey! Thanks for checking out my plugin! It means alot to me!
 
 Deditcated to All the Wonderful TPP fans
 
+To submit Emotes for TPP Meme-otes please go here: **[Submisson Form](http://goo.gl/forms/E8qS1JH0C6)**
+
+
 !!!YOU NEED **[FFZ](http://www.frankerfacez.com/)** FOR THIS TO WORK!!!
 
 Please click **[Here](https://chrome.google.com/webstore/detail/tpp-memotes/chagjmfjhbhihelppcenkcjobbnbaifn)** for the Download of the
