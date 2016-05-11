@@ -29,10 +29,9 @@ graulund - Original Script (Thanks a million), Emote Art.
 ahiddenwaffle - Emote Art, Porting emotes into plugin.
 
 Emote Makers And Amazing People
-
-\n general_Marionette --- (You know what you did TriHard)
-\n Jayare158 ------------ Emote Art
-Pioxys --------------- Emote Art
-Steve1O5 ------------- Ideas and stuff
-graulund ------------- Still can't thank you enough
+general_Marionette --- (You know what you did TriHard)  
+Jayare158 ------------ Emote Art  
+Pioxys --------------- Emote Art  
+Steve1O5 ------------- Ideas and stuff  
+graulund ------------- Still can't thank you enough  
 You? ------------------ **[???](http://goo.gl/forms/E8qS1JH0C6)**
