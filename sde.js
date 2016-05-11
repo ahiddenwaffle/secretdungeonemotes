@@ -170,7 +170,7 @@ var sde = (function(){
 						imgSrc: emote.url,
 						srcSet: emote.url + " 1x",
 						altText: emote.name,
-						hidden: /^dan/.test(emote.name),
+						hidden: /^dan/.test(emote.name), /^aus/.test(sdem.name)
 						escaped: function(key){ return escapeHtml(this[key] || "") }
 					}
 				});
