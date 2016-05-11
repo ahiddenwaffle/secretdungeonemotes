@@ -396,5 +396,11 @@ var sde = (function(){
 		tries: function(){ return tries },
 		isUsingFfz: function(){ return usingFfz }
 	}
+	return {
+		getEmoteList2: getEmoteList2,
+		emoteList: function(){ return sdEmoticons },
+		tries: function(){ return tries },
+		isUsingFfz: function(){ return usingFfz }
+	}
 
 })();
