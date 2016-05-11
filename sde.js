@@ -91,17 +91,7 @@ var sde = (function(){
 			console.log("SDE: Error occured retrieving emote data! " + errorThrown)
 		})
 	}
-	
-	var getEmoteList2 = function(callback){
-		return $.ajax({
-			url: "https://ahiddenwaffle.github.io/secretdungeonemotes/dungeonemotes-prefixed2.json",
-			dataType: "jsonp",
-			jsonpCallback: "sde_jsonp_static"
-		}).done(callback).fail(function(jqXHR, textStatus, errorThrown){
-			console.log("SDE: Error occured retrieving emote data! " + errorThrown)
-		})
-	}
-	
+
 	var go = function(){
 		var $ = wnd.jQuery
 
@@ -261,9 +251,9 @@ var sde = (function(){
 		var convertEmoticonListToFFZ = function(){
 
 			var owner = {
-				display_name: "Various",
+				display_name: "electricnet",
 				id: 999999,
-				name: "Various"
+				name: "electricnet"
 			}
 
 			var list = []
@@ -324,7 +314,7 @@ var sde = (function(){
 					emoticons: sdeFfzList,
 					icon: null,
 					id: sdeFfzName,
-					title: "TPP Meme-otes",
+					title: "Secret Dungeon Emotes",
 					users: []
 				}
 
@@ -373,12 +363,6 @@ var sde = (function(){
 					sdEmoticons = data
 					tries = 0
 					init()
-						getEmoteList2(function(data){
-				if(typeof data == "object" && data instanceof Array){
-					console.log("Dungeon Emotes: Downloaded emoticon list!")
-					sdEmoticons = data
-					tries = 0
-					init()
 				} else {
 					console.warn("Could not initialise SDE; ill data object received")
 				}
@@ -392,12 +376,6 @@ var sde = (function(){
 
 	return {
 		getEmoteList: getEmoteList,
-		emoteList: function(){ return sdEmoticons },
-		tries: function(){ return tries },
-		isUsingFfz: function(){ return usingFfz }
-	}
-	return {
-		getEmoteList2: getEmoteList2,
 		emoteList: function(){ return sdEmoticons },
 		tries: function(){ return tries },
 		isUsingFfz: function(){ return usingFfz }
