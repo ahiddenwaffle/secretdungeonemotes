@@ -30,8 +30,8 @@ ahiddenwaffle - Emote Art, Porting emotes into plugin.
 
 Emote Makers And Amazing People
 general_Marionette --- (You know what you did TriHard)  
-Rycool10200 ---------- Helping out with coding, Emote Art
-Pfaccioxx ------------ Emote Art
+Rycool10200 ---------- Helping out with coding, Emote Art  
+Pfaccioxx ------------ Emote Art  
 Jayare158 ------------ Emote Art  
 Pioxys --------------- Emote Art  
 Steve1O5 ------------- Ideas and stuff  
