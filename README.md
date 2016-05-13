@@ -35,5 +35,7 @@ Pfaccioxx ------------ Emote Art
 Jayare158 ------------ Emote Art  
 Pioxys --------------- Emote Art  
 Steve1O5 ------------- Ideas and stuff  
+Sunkhaskasis --------- Emote Art  
+RT-Pickred ----------- Emote Art  
 graulund ------------- Still can't thank you enough  
 You? ------------------ **[???](http://goo.gl/forms/E8qS1JH0C6)**
