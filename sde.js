@@ -170,7 +170,7 @@ var sde = (function(){
 						imgSrc: emote.url,
 						srcSet: emote.url + " 1x",
 						altText: emote.name,
-						hidden: /^Secret/.test(emote.name),
+						hidden: /^(Secret)/.test(emote.name),
 						escaped: function(key){ return escapeHtml(this[key] || "") }
 					}
 				});
@@ -264,7 +264,7 @@ var sde = (function(){
 				list.push({
 					css: null,
 					height: sdem.height,
-					hidden: /^Secret/.test(sdem.name), 
+					hidden: /^(Secret)/.test(sdem.name), 
 					id: id,
 					margins: null,
 					name: sdem.name,
