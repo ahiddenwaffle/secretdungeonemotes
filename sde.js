@@ -266,6 +266,7 @@ var sde = (function(){
 					css: null,
 					height: sdem.height,
 					hidden: /^Secret/.test(sdem.name),
+					hidden: /^Big/.test(sdem.name),
 					id: id,
 					margins: null,
 					name: sdem.name,
