@@ -170,8 +170,7 @@ var sde = (function(){
 						imgSrc: emote.url,
 						srcSet: emote.url + " 1x",
 						altText: emote.name,
-						hidden: /^Secret/.test(emote.name),
-						hidden: /^Big/.test(emote.name),
+						hidden: /^(Secret|Big)$/.test(emote.name),
 						escaped: function(key){ return escapeHtml(this[key] || "") }
 					}
 				});
