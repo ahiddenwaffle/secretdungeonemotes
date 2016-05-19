@@ -264,8 +264,7 @@ var sde = (function(){
 				list.push({
 					css: null,
 					height: sdem.height,
-					hidden: /^Secret/.test(sdem.name), 
-					hidden: /^Big/.test(sdem.name),
+					hidden: /^(Secret|Big)$/.test(sdem.name), 
 					id: id,
 					margins: null,
 					name: sdem.name,
