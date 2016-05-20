@@ -163,6 +163,7 @@ var sde = (function(){
 
 				// Generate emote tokens for each emote
 				var emoteTokens = {};
+				var emoteHidden = new RegExp("Secret" || "Big");
 				_.each(emotes, function(emote) {
 					emoteTokens[emote.name] = {
 						type: "emoticon",
@@ -170,7 +171,7 @@ var sde = (function(){
 						imgSrc: emote.url,
 						srcSet: emote.url + " 1x",
 						altText: emote.name,
-						hidden: /^(Secret || Big)$/.test(emote.name),
+						hidden: emoteHidden.test(emote.name),
 						escaped: function(key){ return escapeHtml(this[key] || "") }
 					}
 				});
@@ -264,7 +265,7 @@ var sde = (function(){
 				list.push({
 					css: null,
 					height: sdem.height,
-					hidden: /^(Secret || Big)$/.test(sdem.name), 
+					hidden: emoteHidden.test(sdem.name), 
 					id: id,
 					margins: null,
 					name: sdem.name,
