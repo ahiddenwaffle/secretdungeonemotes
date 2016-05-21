@@ -84,7 +84,7 @@ var sde = (function(){
 
 	var getEmoteList = function(callback){
 		return $.ajax({
-			url: "https://ahiddenwaffle.github.io/secretdungeonemotes/dungeonemotes-prefixed.json",
+			url: "://ahiddenwaffle.github.io/secretdungeonemotes/dungeonemotes-prefixed.json",
 			dataType: "jsonp",
 			jsonpCallback: "sde_jsonp_static"
 		}).done(callback).fail(function(jqXHR, textStatus, errorThrown){
