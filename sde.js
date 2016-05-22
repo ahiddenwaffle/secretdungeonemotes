@@ -81,7 +81,7 @@ var sde = (function(){
 		} else {
 			// Waiting 2 seconds to help get FFZ to load if needed
 			setTimeout(go, 2000)
-				alert("Meme-otes is now banned in TPP chat, Please refrain from using them except in chat rooms / whispers");
+			alert("Meme-otes is now banned in TPP chat, Please refrain from using them except in chat rooms / whispers");
 		}
 	}
 
