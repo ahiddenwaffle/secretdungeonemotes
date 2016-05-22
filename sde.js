@@ -22,7 +22,7 @@
  */
 
  // BIG shoutouts to the original TPP chat filter script and the FFZ crew. Good pointers.
-alert("Meme-otes is now banned in TPP chat, Please refrain from using them except in chat rooms / whispers");
+
 var sde = (function(){
 	"use strict";
 
