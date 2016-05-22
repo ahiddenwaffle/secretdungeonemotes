@@ -62,7 +62,7 @@ var sde = (function(){
 			return entityMap[s];
 		});
 	}
-	alert("Meme-otes is now banned in TPP chat, Please refrain from using them except in chat rooms / whispers (also this will appear 3 times, dont ask why)");
+	
 
 	var init = function(){
 		// Only proceed loading SDE until all the below exist
