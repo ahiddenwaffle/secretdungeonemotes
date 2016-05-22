@@ -22,7 +22,7 @@
  */
 
  // BIG shoutouts to the original TPP chat filter script and the FFZ crew. Good pointers.
-
+alert.("Meme-otes is now banned in TPP chat, Please refrain from using them except in chat rooms / whispers")
 var sde = (function(){
 	"use strict";
 
@@ -84,7 +84,7 @@ var sde = (function(){
 
 	var getEmoteList = function(callback){
 		return $.ajax({
-			url: "://ahiddenwaffle.github.io/secretdungeonemotes/dungeonemotes-prefixed.json",
+			url: ":https://ahiddenwaffle.github.io/secretdungeonemotes/dungeonemotes-prefixed.json",
 			dataType: "jsonp",
 			jsonpCallback: "sde_jsonp_static"
 		}).done(callback).fail(function(jqXHR, textStatus, errorThrown){
