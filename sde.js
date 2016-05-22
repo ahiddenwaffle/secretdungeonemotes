@@ -42,7 +42,7 @@ var sde = (function(){
 	var hasFrankerFaceZ = function(){
 		return (typeof wnd.ffz != "undefined")
 	}
-		alert("Meme-otes is now banned in TPP chat, Please refrain from using them except in chat rooms / whispers");
+	
 
 	if(hasFrankerFaceZ()){
 		console.log("SDE: FrankerFaceZ detected!")
@@ -81,6 +81,7 @@ var sde = (function(){
 		} else {
 			// Waiting 2 seconds to help get FFZ to load if needed
 			setTimeout(go, 2000)
+				alert("Meme-otes is now banned in TPP chat, Please refrain from using them except in chat rooms / whispers");
 		}
 	}
 
