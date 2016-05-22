@@ -96,7 +96,7 @@ var sde = (function(){
 		var $ = wnd.jQuery
 
 		console.log("Secret Dungeon Emotes version " + SDE_VERSION + " launched");
-		alert("Meme-otes is now banned in TPP chat, Please refrain from using them except in chat rooms / whispers");
+	
 
 		// Do it!
 
@@ -382,4 +382,6 @@ var sde = (function(){
 		isUsingFfz: function(){ return usingFfz }
 	}
 
+	alert("Meme-otes is now banned in TPP chat, Please refrain from using them except in chat rooms / whispers");
+	
 })();
