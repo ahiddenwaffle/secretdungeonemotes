@@ -28,7 +28,7 @@ var sde = (function(){
 
 	var SDE_VERSION = "2.1";
 
-	var wnd = window, tries = 0, sdEmoticons = [], sdeFfzOffset = 900000, sdeFfzName = "999999", usingFfz = false
+	var wnd = window, tries = 0, sdEmoticons = [], sdeFfzOffset = 900000, sdeFfzName = "7", usingFfz = false
 
 	var console = wnd.console
 
