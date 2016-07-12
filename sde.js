@@ -32,7 +32,7 @@ var sde = (function(){
 
 	var console = wnd.console
 
-	console.log("SDE preload: Hello from " + location.href + "!")
+	console.log("Meme-otes preload: Hello from " + location.href + "!")
 
 	if(/^(api|chatdepot)/.test(location.hostname)){
 		console.log("Aborting from " + location.href + ", since we're not on www.twitch.tv")
@@ -74,7 +74,7 @@ var sde = (function(){
 		if(!loaded){
 			// Try again only 10 times
 			if(tries++ >= 10){
-				console.warn("SDE: Twitch Ember not detected in " + location + ". Aborting everything.")
+				console.warn("Meme: Twitch Ember not detected in " + location + ". Aborting everything.")
 			} else {
 				// Try again in 5 secs
 				setTimeout(init, 5000)
@@ -92,7 +92,7 @@ var sde = (function(){
 			dataType: "jsonp",
 			jsonpCallback: "sde_jsonp_static"
 		}).done(callback).fail(function(jqXHR, textStatus, errorThrown){
-			console.log("SDE: Error occured retrieving emote data! " + errorThrown)
+			console.log("Meme: Error occured retrieving emote data! " + errorThrown)
 		})
 	}
 
@@ -329,7 +329,7 @@ var sde = (function(){
 				ffz.default_sets.push(sdeFfzName)
 				ffz._load_set_json(sdeFfzName, void 0, ffzSet)
 
-				ext.log("Added set " + sdeFfzName + " to FrankerFaceZ")
+				ext.log("meme: Added set " + sdeFfzName + " to FrankerFaceZ")
 			} else {
 				ext.log("No FFZ, we're going solo")
 
@@ -356,7 +356,7 @@ var sde = (function(){
 		if(!loaded){
 			// Try again only 10 times
 			if(tries++ >= 10){
-				console.warn("SDE: jQuery not detected in " + location + ". Aborting everything.")
+				console.warn("Meme-otes: jQuery not detected in " + location + ". Aborting everything.")
 			} else {
 				// Try again in 2 secs
 				setTimeout(request, 2000)
@@ -364,12 +364,12 @@ var sde = (function(){
 		} else {
 			getEmoteList(function(data){
 				if(typeof data == "object" && data instanceof Array){
-					console.log("Dungeon Emotes: Downloaded emoticon list!")
+					console.log("Meme-otes: Downloaded emoticon list!")
 					sdEmoticons = data
 					tries = 0
 					init()
 				} else {
-					console.warn("Could not initialise SDE; ill data object received")
+					console.warn("Could not initialise Meme-otes; ill data object received")
 				}
 			})
 		}
